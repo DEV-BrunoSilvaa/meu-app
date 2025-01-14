@@ -1,16 +1,14 @@
+import Banner from './Componentes/Banner';
+import Formulario from './Componentes/formulario/iindex';
 
-import Banner from './componentes/banner';
-import CampoTexto from './componentes/CampoTExto';
 
 function App() {
-  return (
-    <div className="App">
-      <Banner />
-      <CampoTexto label="nome" />
-      <CampoTexto label="cargo" />
-      <CampoTexto label="imagem" />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Banner />
+            <Formulario />
+        </div>
+    )
 }
 
 export default App;
