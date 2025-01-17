@@ -8,16 +8,17 @@ import { useState } from 'react'
 const Formulario = (props) => {
 
     // faz as listas e depois joga aqui nos formularios montando uma conts usar o(useState)
-    const times = [
-        'programaçao',
-        'front-end',
-        'data science',
-        'develops',
-        'Ux e design',
-        'mobile',
-        'inovaçao e gestao'
-    ]
-    //cria esses eventos e joga nos campos textos para criar informaçoes nos campos
+    // TESTE ANTES DE COMPLETAR 
+    // const times 
+    // = [
+    //    'programaçao',
+    //    'front-end',
+    //    'Data science',
+    //    'develops',
+    //   'Ux e design',
+    //    'mobile',
+    //    'inovaçao e gestao',
+    //]    //cria esses eventos e joga nos campos textos para criar informaçoes nos campos
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
@@ -61,7 +62,7 @@ const Formulario = (props) => {
             <ListaSuspensa
             obrigatorio={true}
             label="Time"
-            itens={times} 
+            itens={props.times} 
             valor={time}
             aoAlterado={valor => setTime(valor)}
             />

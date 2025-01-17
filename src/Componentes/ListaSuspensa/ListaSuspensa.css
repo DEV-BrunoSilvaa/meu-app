@@ -4,8 +4,9 @@ margin-bottom: 8px;
 font-size: 24px;
 }
 .lista-suspensa ,select {
-background-color: #fff;
-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+background-color: #fdfbfb;
+box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.06);
+border-radius: 10px;
 width: 100%;
 border: none;
 font-size: 24px;
