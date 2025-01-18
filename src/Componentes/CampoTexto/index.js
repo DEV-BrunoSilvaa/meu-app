@@ -1,6 +1,5 @@
 import './campotexto.css';
 
-
 const CampoTexto = (props) => {
 // onchange criase para dar guardar os valores escritos dentro dos campos de testo cria ele e depois monta o console.log 
 
