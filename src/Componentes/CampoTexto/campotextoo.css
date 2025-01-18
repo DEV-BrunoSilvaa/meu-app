@@ -1,14 +1,12 @@
 .campo-texto{
-    margin:24px 0
+    margin:14px 0
 }
-.campo-texto .lab{
+.campo-texto label{
     display:block;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
     font-size: 24px;
 }
-.campo-texto input{
-    background-color: #fff;
-    box-shadow: 10px 10px 30px  rgba(0,0,0,0.28);
+.campo-texto ,input{
     border-radius: 10px;
     width: 100%;
     border: none;
