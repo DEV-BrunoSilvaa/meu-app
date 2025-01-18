@@ -46,7 +46,7 @@ function App() {
     const [colaboradores, setColaboradores] = useState([]);
 
     const aoNovoColaboradorAdiconado = (colaborador) => {
-    console.log(colaborador);
+    //console.log(colaborador);
     //colaboradores espalha os antigos e (colaborador tras os novos)
     
     setColaboradores([...colaboradores, colaborador]);
