@@ -34,6 +34,11 @@ const Formulario = (props) => {
             imagem,
             time,
         })
+        //LIMPANDO OS FORMULARIOS //
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
     return(
         <section className="formulario">
