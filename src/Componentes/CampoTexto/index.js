@@ -1,4 +1,4 @@
-import './campotextoo.css';
+import './campotexto.css';
 
 
 const CampoTexto = (props) => {
