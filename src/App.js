@@ -41,7 +41,7 @@ function App() {
         corPrimaria: "#FF8A29",
         corSecundaria: "#FFEEDF",
     },
-    ];
+    ]
 
     const [colaboradores, setColaboradores] = useState([]);
 
